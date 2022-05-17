@@ -1,0 +1,194 @@
+.service {
+    min-height: 100vh;
+    display: flex;
+}
+
+.service .service-info {
+    flex: 0 0 60%;
+    max-width: 60%;
+}
+
+.service .service-img img {
+    height: 400px;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+/*Cards*/
+
+.awesome {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.awesome>:nth-child(1) {
+    color: var(--black);
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.awesome>:nth-child(2) {
+    color: var(--azul);
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.awesome>:nth-child(3) {
+    color: var(--gray);
+    font-size: 14px;
+    margin-top: 1rem;
+}
+
+.s-button {
+    width: 8rem;
+    height: 2rem;
+    margin-top: 1rem;
+}
+
+.cards {
+    position: relative;
+
+}
+
+.cards>* {
+    position: absolute;
+}
+
+/*Experiências*/
+
+.experience {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+    height: 30vh;
+    margin-top: 36rem;
+    margin-left: 15rem;
+}
+
+.achieviment {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.circle {
+    width: 4rem;
+    height: 4rem;
+    background: rgb(31, 26, 26);
+    border-radius: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+.circle::before {
+    border-radius: 100%;
+    content: '';
+    background-image: linear-gradient(to bottom, var(--azul) 0%, white 100%);
+    top: -8px;
+    left: -8px;
+    bottom: -8px;
+    right: -8px;
+    position: absolute;
+    z-index: -1;
+    box-shadow: var(--boxShadow);
+}
+
+.achieviment span:nth-of-type(1) {
+    color: var(--white);
+}
+
+.achieviment span:nth-of-type(2) {
+    color: var(--azul);
+}
+
+/*Escolas*/
+.schools {
+    padding: 0 3rem 0 3rem;
+    display: flex;
+    height: 90vh;
+    margin-top: 5rem;
+}
+
+.w-right {
+    position: relative;
+    right: 100px;
+}
+
+.w-mainCircle {
+    left: 9rem;
+    position: relative;
+    width: 18rem;
+    height: 18rem;
+    border-radius: 100%;
+    box-shadow: var(--smboxShadow);
+    top: 2rem;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.awesome>:nth-child(1) {
+    color: rgb(255, 255, 255);
+}
+
+.w-mainCircle>* {
+    position: absolute;
+}
+
+.w-mainCircle>:nth-child(1) {
+    top: -1rem;
+    left: 12rem;
+    background: var(--azul);
+}
+
+.w-mainCircle>:nth-child(2) {
+    top: 5rem;
+    left: 2.5rem;
+    background: black;
+}
+
+.w-mainCircle>:nth-child(3) {
+    top: 9rem;
+    left: 12rem;
+}
+
+.w-secCircle {
+    width: 6rem;
+    height: 6rem;
+    position: absolute;
+    border-radius: 100%;
+    border: 5px solid #ebebeb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: "none";
+    box-shadow: var(--smboxShadow);
+    background: white;
+}
+
+.w-backCircle {
+    position: absolute;
+    height: 13rem;
+    width: 13rem;
+    border-radius: 100%;
+    z-index: -1;
+}
+
+.blueCircle {
+    background: var(--azul);
+    left: 18rem;
+    top: 0rem;
+}
+
+.yellowCircle {
+    background: white;
+    left: 18rem;
+    top: 8rem;
+}

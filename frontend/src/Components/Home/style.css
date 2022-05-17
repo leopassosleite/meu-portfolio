@@ -1,0 +1,68 @@
+.home-section {
+    min-height: 100vh;
+    display: block;
+    position: fixed;
+    left: 20px;
+    padding: 0 30px;
+    top: 0;
+    right: 0;
+    z-index: 0;
+    opacity: 1;
+}
+
+.home {
+    min-height: 100vh;
+    display: flex;
+}
+
+.home .home-info {
+    flex: 0 0 60%;
+    max-width: 60%;
+}
+
+.home .home-img {
+    flex: 0 1 40%;
+    max-width: 40%;
+    text-align: center;
+    position: relative;
+}
+
+.home .home-img .i-right .avatar-nft {
+    transform: scale(0.3);
+    top: -30rem;
+    margin-left: -80px;
+}
+
+.home .home-img .i-right .floating-div-react {
+    transform: scale(0.4);
+    top: -20rem !important;
+    margin-left: 40px;
+    right: 4rem;
+}
+
+.home .home-img .i-right .floating-div-spring {
+    transform: scale(0.4);
+    top: -10rem !important;
+    margin-left: -30px;
+}
+
+.home .home-img img {
+    height: 400px;
+}
+
+.blur {
+    position: absolute;
+    width: 22rem;
+    height: 14rem;
+    border-radius: 50%;
+    background: #edd0ff;
+    filter: blur(212px);
+    z-index: -9;
+    top: 18%;
+    left: 56%;
+}
+
+ul {
+    list-style: none;
+    transform: scale(0.7);
+}
